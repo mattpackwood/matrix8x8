@@ -79,7 +79,7 @@ void loop() {
   delay(500);
 
   matrix.clear();      // clear display
-  matrix.drawPixel(0, 0, LED_ON);  
+  matrix.drawPixel(3, 3, LED_ON);  
   matrix.writeDisplay();  // write the changes we just made to the display
   delay(500);
 
@@ -110,13 +110,31 @@ void loop() {
     matrix.writeDisplay();
     delay(100);
   }
-  matrix.setRotation(0);
-  for (int8_t x=7; x>=-36; x--) {
+  matrix.setRotation(1);
+  for (int8_t x=7; x>=-72; x--) {
     matrix.clear();
     matrix.setCursor(x,0);
-    matrix.print("Sweetie");
+    matrix.print("Just Testing!");
     matrix.writeDisplay();
     delay(100);
+  }
+
+  matrix.setRotation(2);
+  for (int8_t x=7; x>=-72; x--) {
+    matrix.clear();
+    matrix.setCursor(x,0);
+    matrix.print("Just Testing!");
+    matrix.writeDisplay();
+    delay(100);
+  }
+
+  matrix.setRotation(3);
+  for (int8_t x=7; x>=-72; x--) {
+    matrix.clear();
+    matrix.setCursor(x,0);
+    matrix.print("Just Testing!");
+    matrix.writeDisplay();
+    delay(100);      
   }
   matrix.setRotation(0);
 }
