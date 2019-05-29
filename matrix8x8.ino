@@ -1,4 +1,5 @@
 /*************************************************** 
+  Adafruit Readme Block
   This is a library for our I2C LED Backpacks
 
   Designed specifically to work with the Adafruit LED Matrix backpacks 
@@ -18,6 +19,10 @@
   Written by Limor Fried/Ladyada for Adafruit Industries.  
   BSD license, all text above must be included in any redistribution
  ****************************************************/
+
+/*************************************************** 
+Additions / updates by MJP
+****************************************************/
 
 #include <Wire.h>
 #include <Adafruit_GFX.h>
