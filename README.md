@@ -1,2 +1,2 @@
 # matrix8x8
-# Need to look at this running on a Yun
+Running on an Uno so far
